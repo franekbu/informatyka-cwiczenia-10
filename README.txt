@@ -2,3 +2,7 @@ Wskaźnik masy ciała (BMI) – współczynnik powstały przez podzielenie masy 
 
 Oznaczanie wskaźnika masy ciała ma znaczenie w ocenie zagrożenia chorobami związanymi z nadwagą i otyłością, np. cukrzycą, chorobą niedokrwienną serca, miażdżycą. Przyjmuje się, że większe BMI wiąże się ze zwiększonym ryzykiem dla zdrowia i życia.
 
+Osoby w grupie:
+Hanna Solecka
+Michał Orłowski
+Franciszek Bury
