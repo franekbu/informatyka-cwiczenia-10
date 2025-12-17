@@ -6,3 +6,11 @@ Osoby w grupie:
 Hanna Solecka
 Michał Orłowski
 Franciszek Bury
+
+Prawidłowe zakresy BMI dla dorosłych (WHO)
+Poniżej 18,5: Niedowaga.
+18,5 – 24,9: Waga prawidłowa.
+25,0 – 29,9: Nadwaga.
+30,0 – 34,9: Otyłość I stopnia.
+35,0 – 39,9: Otyłość II stopnia.
+≥ 40,0: Otyłość III stopnia (skrajna)
