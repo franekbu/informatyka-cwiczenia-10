@@ -22,3 +22,16 @@ Nie był to pierwotnie narzędzie medyczne do oceny zdrowia osobistego, lecz sta
 W 1972 roku amerykański fizjolog Ancel Keys spopularyzował wzór jako "Body Mass Index" (BMI) w badaniach nad otyłością, czyniąc go standardem medycznym.​
 Dziś służy do wstępnej oceny masy ciała, choć ma ograniczenia, jak nieuwzględnianie masy mięśniowej.
 
+RYZYKA ZDROWOTNE WG BMI:
+
+1. BMI < 18.5 (Niedowaga):
+- Osłabienie odporności i częste infekcje.
+- Osteoporoza i łamliwość kości.
+- Anemia, zaburzenia płodności i zanik miesiączki.
+
+2. BMI > 25 (Nadwaga i Otyłość):
+- Choroby serca, nadciśnienie i ryzyko udaru/zawału.
+- Cukrzyca typu 2 i insulinooporność.
+- Obciążenie stawów i bezdech senny.
+- Wyższe ryzyko chorób nowotworowych.
+
