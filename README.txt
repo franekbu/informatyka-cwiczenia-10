@@ -7,6 +7,21 @@ Hanna Solecka
 Michał Orłowski
 Franciszek Bury
 
+
+Prawidłowe zakresy BMI dla dorosłych (WHO)
+Poniżej 18,5: Niedowaga.
+18,5 – 24,9: Waga prawidłowa.
+25,0 – 29,9: Nadwaga.
+30,0 – 34,9: Otyłość I stopnia.
+35,0 – 39,9: Otyłość II stopnia.
+≥ 40,0: Otyłość III stopnia (skrajna)
+
+Wskaźnik BMI został stworzony w 1832 roku przez belgijskiego matematyka, astronoma i socjologa Adolpha Queteleta (znanego też jako Lambert Adolphe Jacques Quetelet).
+Quetelet opracował go podczas badań statystycznych nad populacjami, by opisać "przeciętnego człowieka" i zmierzyć stopień otyłości w społeczeństwach, a nie u jednostek.​
+Nie był to pierwotnie narzędzie medyczne do oceny zdrowia osobistego, lecz statystyczny indeks do analizy demograficznej i antropometrycznej.
+W 1972 roku amerykański fizjolog Ancel Keys spopularyzował wzór jako "Body Mass Index" (BMI) w badaniach nad otyłością, czyniąc go standardem medycznym.​
+Dziś służy do wstępnej oceny masy ciała, choć ma ograniczenia, jak nieuwzględnianie masy mięśniowej.
+
 RYZYKA ZDROWOTNE WG BMI:
 
 1. BMI < 18.5 (Niedowaga):
@@ -19,3 +34,4 @@ RYZYKA ZDROWOTNE WG BMI:
 - Cukrzyca typu 2 i insulinooporność.
 - Obciążenie stawów i bezdech senny.
 - Wyższe ryzyko chorób nowotworowych.
+
