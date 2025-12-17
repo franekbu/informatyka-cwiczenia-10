@@ -6,3 +6,16 @@ Osoby w grupie:
 Hanna Solecka
 Michał Orłowski
 Franciszek Bury
+
+RYZYKA ZDROWOTNE WG BMI:
+
+1. BMI < 18.5 (Niedowaga):
+- Osłabienie odporności i częste infekcje.
+- Osteoporoza i łamliwość kości.
+- Anemia, zaburzenia płodności i zanik miesiączki.
+
+2. BMI > 25 (Nadwaga i Otyłość):
+- Choroby serca, nadciśnienie i ryzyko udaru/zawału.
+- Cukrzyca typu 2 i insulinooporność.
+- Obciążenie stawów i bezdech senny.
+- Wyższe ryzyko chorób nowotworowych.
