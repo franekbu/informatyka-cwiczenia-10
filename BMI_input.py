@@ -1,12 +1,9 @@
-import os
-
-
-def czytaj_float(prompt, dodatnia=False):
+def czytaj_float(prompt):
     while True:
         s = input(prompt).strip().replace(',', '.')
         try:
             liczba = float(s)
-            if dodatnia and liczba <= 0:
+            if liczba < 0:
                 print("Podaj liczbę większą od zera.")
                 continue
             return liczba
@@ -14,12 +11,12 @@ def czytaj_float(prompt, dodatnia=False):
             print("Podaj liczbę.")
 
 
-def czytaj_int(prompt, dodatnia=False):
+def czytaj_int(prompt):
     """Czyta liczbę całkowitą z wejścia."""
     while True:
         try:
             liczba = int(input(prompt).strip())
-            if dodatnia and liczba <= 0:
+            if liczba < 0:
                 print("Podaj liczbę większą od zera.")
                 continue
             return liczba
@@ -79,21 +76,20 @@ with open("wynik_bmi.txt", 'a', encoding='utf-8') as plik:
 
         # Wczytanie danych
         if jednostki.lower() == 'm':
-            waga = czytaj_float("Waga (kg): ", dodatnia=True)
-            wzrost_cm = czytaj_float("Wzrost (cm): ", dodatnia=True)
-            wzrost = wzrost_cm / 100.0  # konwersja na metry
+            waga = czytaj_float("Waga (kg): ")
+            wzrost = czytaj_float("Wzrost (cm): ")
 
         else:
-            waga_i = czytaj_float("Waga (funty): ", dodatnia=True)
-            stopy = czytaj_int("Wzrost - stopy: ", dodatnia=True)
-            cale = czytaj_int("Wzrost - cale: ", dodatnia=False)
+            waga_i = czytaj_float("Waga (funty): ")
+            stopy = czytaj_int("Wzrost - stopy: ")
+            cale = czytaj_int("Wzrost - cale: ")
             wzrost_i = (stopy * 12) + cale  # konwersja na całkowite cale
 
             waga = funt_na_kg(waga_i)
-            wzrost = cale_na_cm(wzrost_i) / 100
+            wzrost = cale_na_cm(wzrost_i)
 
         # Obliczenie BMI
-        bmi = oblicz_bmi(waga, wzrost)
+        bmi = oblicz_bmi(waga, wzrost/100)
         interpretacja = interpretacja_bmi(bmi)
 
         # Wyświetlenie wyniku
@@ -102,4 +98,4 @@ with open("wynik_bmi.txt", 'a', encoding='utf-8') as plik:
 
         plik.write(f"{waga:.2f};{wzrost:.2f};{bmi:.2f}\n") #zapis do pliku
 
-print(f"\nWyniki zapisano do pliku: wyniki_bmi.txt")
+print(f"\nWyniki zapisano do pliku: wynik_bmi.txt")
